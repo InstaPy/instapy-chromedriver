@@ -1,4 +1,4 @@
-# chromedriver-py
+# instapy-chromedriver
 
 downloads and installs the latest chromedriver binary version for automated testing of webapps.  
 the installer supports linux, mac and windows operating systems.
@@ -10,23 +10,23 @@ if a new chromedriver version is out, this package will automaticly get updated 
 
 __from pypi__  
 ```bash
-$ pip install chromedriver-py
+$ pip install instapy-chromedriver
 ```
 
 __from github__
 ```bash
-$ pip install git+https://github.com/scriptworld-git/chromedriver-py.git
+$ pip install git+https://github.com/InstaPy/instapy-chromedriver.git
 ```
 
 ## usage
 
-to use chromedriver just `from chromedriver_py import binary_path`.  
+to use chromedriver just `from instapy_chromedriver import binary_path`.  
 you will get a string variable with the excecutable filepath for your operating system.
 
 ## example
 ```python
 from selenium import webdriver
-from chromedriver_py import binary_path # this will get you the path variable
+from instapy_chromedriver import binary_path # this will get you the path variable
 
 driver = webdriver.Chrome(executable_path=binary_path)
 driver.get("http://www.python.org")

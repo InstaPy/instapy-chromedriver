@@ -10,9 +10,9 @@ with open(CURRENT_VERSION_FILE) as f:
     package_version = f.read().strip()
 
 
-setup(name='chromedriver-py',
+setup(name='instapy-chromedriver',
       version=package_version,
-      description="chromedriver binaries for all platforms",
+      description='chromedriver binaries for instapy',
       long_description=long_description_file,
       long_description_content_type="text/markdown",
       classifiers=[
@@ -20,11 +20,11 @@ setup(name='chromedriver-py',
           'Programming Language :: Python',
           'Operating System :: OS Independent',
       ],
-      keywords='chromedriver cross-platform binaries binary',
-      url='http://github.com/scriptworld-git/chromedriver-py',
+      keywords='chromedriver cross-platform binaries binary instapy',
+      url='https://github.com/InstaPy/instapy-chromedriver',
       author='Felix Breuer',
       author_email='felix@scriptworld.net',
-      packages=['chromedriver_py'],
+      packages=['instapy_chromedriver'],
       install_requires=[],
       include_package_data=True,
       zip_safe=False)
