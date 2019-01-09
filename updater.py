@@ -12,7 +12,7 @@ BIT_VERSIONS = [ '64', '32' ]
 CHROMEDRIVER_FILE_NAME = 'chromedriver_'
 CHROMEDRIVER_EXTENSION = '.zip'
 
-DOWNLOAD_DIR = './chromedriver_py/'
+DOWNLOAD_DIR = './instapy_chromedriver/'
 VERSION_FILE = './CURRENT_VERSION.txt'
 
 
